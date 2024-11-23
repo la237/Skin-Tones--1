@@ -62,37 +62,44 @@
     <hr style="border: 1px solid #491407; width: 100%;"> <!-- Linha personalizada -->
 
     <!--BANNER 1-->
-    <div class="animation-container">
-        <img src="IMG/bn 1 + vendidos.png" alt="Imagem 1" class="animated-image">
-        <img src="IMG/bn 2 + vendidos.png" alt="Imagem 2" class="animated-image">
-        <img src="IMG/bn 3 + vendidos.png" alt="Imagem 3" class="animated-image">
-        <img src="IMG/bn 4 + vendidos.png" alt="Imagem 4" class="animated-image">
-        <img src="IMG/bn 5 + vendidos.png" alt="Imagem 5" class="animated-image">
+
+  <div class="banner">
+    <div class="image-container" id="img1">
+      <img src="IMG/bn 1 + vendidos.png" alt="Produto 1">
     </div>
+    <div class="image-container" id="img2">
+      <img src="IMG/bn 2 + vendidos.png" alt="Produto 2">
+    </div>
+    <div class="image-container" id="img3">
+      <img src="IMG/bn 3 + vendidos.png" alt="Produto 3">
+    </div>
+    <div class="image-container" id="img4">
+      <img src="IMG/bn 4 + vendidos.png" alt="Produto 4">
+    </div>
+    <div class="image-container" id="img5">
+      <img src="IMG/bn 5 + vendidos.png" alt="Produto 5">
+    </div>
+  </div>
     <br>
     <br>
     <br>
     <div class="intro-section">
-    <h1>Olá Skinlovers 🤎</h1>
-    <h3>Seja o que te Inspira! Use e Abuse dos nossos <span>#Queridinhos</span></h3>
-    <p>Venha conhecer os produtos mais badalados da Skin Tones</p>
-    <br>
+        <h1>Olá Skinlovers 🤎</h1>
+        <h3>Seja o que te Inspira! Use e Abuse dos nossos <span>#Queridinhos</span></h3>
+        <p>Venha conhecer os produtos mais badalados da Skin Tones</p>
+        <br>
     </div>
-    
-    <hr style="border: 1px solid #491407; width: 80%;margin-left: 10%;"> <!-- Linha personalizada -->
+    <hr style="border: 1px solid #491407; width: 80%; margin-left: 10%;">
     <br>
-
-
-    <!--CAROUSSEL 1-->
+    
+    <!-- CAROUSEL 1 -->
     <div class="queridinhos-container">
         <div class="image-section">
             <img src="IMG/queridinha 1.png" alt="Imagem do produto">
         </div>
         <div class="carousel-section">
-           
             <div class="carousel-container">
-               
-                <div class="carousel">
+                <div class="carousel" id="carousel1">
                     <div class="carousel-item">
                         <img src="IMG/queridinho 1.png" alt="Produto 1">
                         <h3>Paleta de Sombras - Vitta Glow 4 tons</h3>
@@ -115,59 +122,51 @@
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
                     <div class="carousel-item">
-                        <img src="IMG/queridinho1.4.png" alt="Produto 3">
+                        <img src="IMG/queridinho1.4.png" alt="Produto 4">
                         <h3>Paleta de Sombras - Vitta Soft 12 tons</h3>
                         <p>+ 2 Tons</p>
                         <span class="price">R$ 79,99</span><br>
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
                     <div class="carousel-item">
-                        <img src="IMG/queridinho1.5.png" alt="Produto 3">
+                        <img src="IMG/queridinho1.5.png" alt="Produto 5">
                         <h3>Paleta de Sombras - Vitta Soft 6 tons</h3>
                         <p>+ 2 Tons</p>
                         <span class="price">R$ 39,99</span><br>
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
                     <div class="carousel-item">
-                        <img src="IMG/queridinho1.6.png" alt="Produto 3">
+                        <img src="IMG/queridinho1.6.png" alt="Produto 6">
                         <h3>Paleta de Sombras - Vitta Soft 6 tons</h3>
                         <p>+ 2 Tons</p>
                         <span class="price">R$ 39,99</span><br>
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
                 </div>
-                <button class="carousel-btn prev">&lt;</button>
-                <button class="carousel-btn next">&gt;</button>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" data-carousel="carousel1">Anterior</button>
+                    <button class="carousel-btn next" data-carousel="carousel1">Próximo</button>
+                </div>
             </div>
         </div>
     </div>
-    <br><br><br><br>
     
-    
-    <!--CARROUSEL 2-->
-    <div class="intro-section-2 ">
-        
-    <h3>Nossos <span>#Queridinhos</span>  Versão Boca</h3>
-    <p>Produtos essenciais para você , que Cuida , Hidrata e Realça seus labios!</p>
-    <br>
-    </div>
-    <hr style="border: 1px solid #491407; width: 80%; margin-left: 10%;"> <!-- Linha personalizada -->
-    <br>
     <br><br>
-
+    <hr style="border: 1px solid #491407; width: 80%; margin-left: 10%;">
+    <br>
+    
+    <!-- CAROUSEL 2 -->
     <div class="queridinhos-container">
         <div class="image-section">
             <img src="IMG/QUE 2.0.png" alt="Imagem do produto">
         </div>
-        <div class="carousel-section 2">
-           
+        <div class="carousel-section">
             <div class="carousel-container">
-                <button class="carousel-btn prev">&lt;</button>
-                <div class="carousel">
+                <div class="carousel" id="carousel2">
                     <div class="carousel-item">
                         <img src="IMG/QUE 2.1.png" alt="Produto 1">
-                        <h3>Batom Matte - Vitta Soft </h3>
-                        <p>+ 2 tons</p>
+                        <h3>Batom Matte - Vitta Soft</h3>
+                        <p>+ 2 Tons</p>
                         <span class="price">R$ 19,99</span><br>
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
@@ -181,57 +180,52 @@
                     <div class="carousel-item">
                         <img src="IMG/QUE 2.3.png" alt="Produto 3">
                         <h3>Batom Matte - Vitta Soft</h3>
-                        <p>+ 5 Tons </p>
+                        <p>+ 5 Tons</p>
                         <span class="price">R$ 19,99</span><br>
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
                     <div class="carousel-item">
-                        <img src="IMG/QUE 2.4.png" alt="Produto 3">
+                        <img src="IMG/QUE 2.4.png" alt="Produto 4">
                         <h3>Batom em Bala - Vitta Oil</h3>
                         <p>+ 2 Tons</p>
                         <span class="price">R$ 29,99</span><br>
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
                     <div class="carousel-item">
-                        <img src="IMG/QUE 2.5.png" alt="Produto 3">
-                        <h3>Batom em Bala- Vitta Oil</h3>
+                        <img src="IMG/QUE 2.5.png" alt="Produto 5">
+                        <h3>Batom em Bala - Vitta Oil</h3>
                         <p>+ 2 Tons</p>
                         <span class="price">R$ 29,99</span><br>
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
                     <div class="carousel-item">
-                        <img src="IMG/QUE 2.6.png" alt="Produto 3">
+                        <img src="IMG/QUE 2.6.png" alt="Produto 6">
                         <h3>Batom em Bala - Vitta Oil</h3>
                         <p>+ 3 Tons</p>
                         <span class="price">R$ 69,99</span><br>
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
                 </div>
-                <button class="carousel-btn next">&gt;</button>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" data-carousel="carousel2">Anterior</button>
+                    <button class="carousel-btn next" data-carousel="carousel2">Próximo</button>
+                </div>
             </div>
         </div>
     </div>
-    <br><br><br><br>
-
-
-    <!--CARROUSEL 3-->
-   <div class="intro-section-3">
-    <h3>Nossos <span>#Queridinhos</span> Versão Facial </h3>
-    <p>Pra peles Maduras,Jovens,Acneica e Secas. Skin Tones sempre pensando em você! </p>
+    
+    <br><br>
+    <hr style="border: 1px solid #491407; width: 80%; margin-left: 10%;">
     <br>
-   </div>
-    <hr style="border: 1px solid #491407; width: 80%;margin-left: 10%;"> <!-- Linha personalizada -->
-    <br><br><br>
-
+    
+    <!-- CAROUSEL 3 -->
     <div class="queridinhos-container">
         <div class="image-section">
             <img src="IMG/Q 3.0.png" alt="Imagem do produto">
         </div>
         <div class="carousel-section">
-           
             <div class="carousel-container">
-                <button class="carousel-btn prev">&lt;</button>
-                <div class="carousel">
+                <div class="carousel" id="carousel3">
                     <div class="carousel-item">
                         <img src="IMG/Q 3.1.png" alt="Produto 1">
                         <h3>Base Líquida - Vitta Glow</h3>
@@ -254,37 +248,23 @@
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
                     <div class="carousel-item">
-                        <img src="IMG/Q 3.4.png" alt="Produto 3">
+                        <img src="IMG/Q 3.4.png" alt="Produto 4">
                         <h3>Base Líquida Pump - Vitta Soft</h3>
                         <p>+ 18 tons</p>
                         <span class="price">R$ 59,99</span><br>
                         <button class="add-to-cart">ADICIONAR</button>
                     </div>
-                    <div class="carousel-item">
-                        <img src="IMG/Q 3.5.png" alt="Produto 3">
-                        <h3>Base Líquida Pump - Vitta Soft</h3>
-                        <p>+ 10 tons</p>
-                        <span class="price">R$ 59,99</span><br>
-                        <button class="add-to-cart">ADICIONAR</button>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="IMG/Q 3.6.png" alt="Produto 3">
-                        <h3>Base Líquida Pump - Vitta Soft</h3>
-                        <p>+ 17 tons</p>
-                        <span class="price">R$ 59,99</span><br>
-                        <button class="add-to-cart">ADICIONAR</button>
-                    </div>
                 </div>
-                <button class="carousel-btn next">&gt;</button>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" data-carousel="carousel3">Anterior</button>
+                    <button class="carousel-btn next" data-carousel="carousel3">Próximo</button>
+                </div>
             </div>
         </div>
     </div>
-    <br><br><br>
-
-
+    <br><br>
+    
       <!--AVALIAÇÕES-->
- 
-  
       <div class="carousel-coments">
         <h1 class="carousel-title-a">Avaliações</h1>
         

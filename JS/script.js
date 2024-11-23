@@ -82,9 +82,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // banner 3 //
-
-
-
 const imagens = document.querySelectorAll('.carrossel img');
 
 function mostrarImagem(index) {
@@ -107,23 +104,6 @@ mostrarImagem(currentIndex);
 // Transição automática a cada 5 segundos
 setInterval(proxima, 3000);
 
-
-
-// Carrossel de Avaliações
-const totalReviews = 3; // Total de avaliações
-const carouselContent = document.querySelector('.carousel-content');
-
-function changeReview(direction) {
-  currentIndex += direction;
-
-  if (currentIndex < 0) {
-    currentIndex = totalReviews - 1;
-  } else if (currentIndex >= totalReviews) {
-    currentIndex = 0;
-  }
-
-  carouselContent.style.transform = `translateX(-${currentIndex * 100}%)`;
-}
 
 // Carrossel de Imagens da Seção História
 const totalImages = 6; // Total de imagens no carrossel de história

@@ -13,11 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #491407;
-    padding: 10px 20px;
-    
-      
-}
-
+    padding: 10px 20px;}
 .navbar-left {
     display: flex;
     align-items: center;
@@ -45,13 +41,9 @@ body {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
 }
-
 #search-button:hover {
     background-color: #777;
 }
-
-
-
 .logo {
     display: flex;
     align-items: center;
@@ -59,14 +51,12 @@ body {
     color: rgb(0, 0, 0);
     border-radius: 80%;
 }
-
 .logo img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
     border-radius: 80%;
 }
-
 .logo span {
     font-size: 20px;
     font-weight: bold;
@@ -198,8 +188,6 @@ body {
   margin: 15px 0;
 }
 /*galerya*/
-
-
 /* Estilo da Grade de Produtos 1 */
 .product-grid {
   display: grid;
@@ -259,8 +247,6 @@ body {
   background-color: #f0f0f0;
   color: #491407;
 }
-
-
 /* AVALIAÇÕES */
 .carousel-coments {
   width: 100%;
@@ -341,10 +327,7 @@ body {
   width: 120px;
   height: auto;
 }
-
-
 /* FOOTER */
-
 footer {
   background-color: #491407;
   color: #fff;
@@ -451,8 +434,3 @@ footer {
     height: 25px;
     width: auto;
   }
-  
-  
-  
-
-
